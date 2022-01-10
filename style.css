@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    background-color: rgb(196, 125, 190);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 2rem;
+    border: 5px double whitesmoke;
+    animation-name: colorChange;
+    animation-duration: 5s;
+}
+
+@keyframes colorChange{
+    0%   {background-color: rgb(196, 125, 190);}
+    25%  {background-color: rgb(214, 214, 114);}
+    50%  {background-color: rgb(102, 191, 197);}
+    100% {background-color: rgb(241, 133, 9);}
+}
